@@ -6,6 +6,12 @@
 ## About me
 **Goal**: *Completion of the course with further employment*
 
+**Personal qualities**
+* Friendly
+* Sociable
+* Happy to help
+* Purposefulness
+
 
 ## Skills
 * HTML
@@ -19,6 +25,7 @@
 
 ## Code example
 [Link to task on CodeWars](https://www.codewars.com/kata/58649884a1659ed6cb000072)
+
 **My solution**:
 
 ```
