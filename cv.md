@@ -52,4 +52,5 @@ function updateLight(current) {
 * *[JavaScript Algorithms and Data Structures (freeCodeCamp)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)*
 * *[Legacy Responsive Web Design](https://www.freecodecamp.org/learn/responsive-web-design/)*
 * *[Полный курс по JavaScript + React - с нуля до результата (Recently started studying)](https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata?lesson=14)*
+
 ## English level is *A1*
