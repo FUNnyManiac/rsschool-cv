@@ -4,6 +4,12 @@
 **Gmail**: *andrejbosacenko@gmail.com*
 
 ## About me
+**General**:
+
+
+*Welcome to my CV. As you have already understood, my name is Andrey. I am 25 years old. I graduated from Polotsk State University, majoring in Computing Machines, Systems and Networks. I did an internship at A1QA on QA Manual. This is not the first time on this course, but this time definitely to the end. I want to change the type of activity from system administration to development.
+
+
 **Goal**: *Completion of the course with further employment*
 
 **Personal qualities**
@@ -11,6 +17,8 @@
 * Sociable
 * Happy to help
 * Purposefulness
+
+**
 
 
 ## Skills
