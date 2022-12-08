@@ -17,10 +17,6 @@
 * Sociable
 * Happy to help
 * Purposefulness
-
-**
-
-
 ## Skills
 * HTML
 * CSS
