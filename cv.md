@@ -43,6 +43,7 @@ function updateLight(current) {
     }
   }
 ```
+
 ## Education
 * *Polotsk State University*
 * *[JavaScript Algorithms and Data Structures (freeCodeCamp)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)*
