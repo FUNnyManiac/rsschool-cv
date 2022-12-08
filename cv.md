@@ -27,10 +27,6 @@
 * Javascript (Basic)
 * Golang (basic)
 * QA Manual (trainee in A1QA)
-
-
-
-
 ## Code example
 [Link to task on CodeWars](https://www.codewars.com/kata/58649884a1659ed6cb000072)
 
@@ -49,4 +45,9 @@ function updateLight(current) {
     }
   }
 ```
+## Education
+* *Polotsk State University*
+* *[JavaScript Algorithms and Data Structures (freeCodeCamp)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)*
+* *[Legacy Responsive Web Design](https://www.freecodecamp.org/learn/responsive-web-design/)*
+* *[Полный курс по JavaScript + React - с нуля до результата (Recently started studying)](https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata?lesson=14)*
 ## English level is *A1*
