@@ -1,4 +1,4 @@
-# Andrei Bosiachenko                                                            ![Это опциональный alt-текст](/assets/images/markdown/markdown.png)
+# Andrei Bosiachenko                                                            ![](https://sun9-44.userapi.com/impg/3sx1peZ-0Xug7qJrlN8uudoAJg2xfy1JK4BMxw/QQ9hn5EYQ8s.jpg?size=1280x877&quality=95&sign=ef800efc1d7779535c57f2742f4a3d28&type=album)
 **Telegram**: *@happy_man_1997*
 
 **Gmail**: *andrejbosacenko@gmail.com*
