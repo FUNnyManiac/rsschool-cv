@@ -1,4 +1,4 @@
-# Andrei Bosiachenko
+# Andrei Bosiachenko                                                            ![Это опциональный alt-текст](/assets/images/markdown/markdown.png)
 **Telegram**: *@happy_man_1997*
 
 **Gmail**: *andrejbosacenko@gmail.com*
