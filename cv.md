@@ -19,12 +19,15 @@
 * Sociable
 * Happy to help
 * Purposefulness
+
 ## Skills
+
 * HTML
 * CSS
 * Javascript (Basic)
 * Golang (basic)
 * QA Manual (trainee in A1QA)
+
 ## Code example
 [Link to task on CodeWars](https://www.codewars.com/kata/58649884a1659ed6cb000072)
 
