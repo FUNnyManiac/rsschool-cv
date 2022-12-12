@@ -1,3 +1,47 @@
-h1{
-    color: red
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1280px
+}
+
+nav{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+    align-items:center;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.myName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+}
+.photo{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width:640px;
+    
+}
+
+.photo>img{
+    width: 320px;
+    border-radius: 45px;
+}
+
+nav>a{
+    display: flex;
+    padding: 10px 15px;
+
 }
