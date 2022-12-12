@@ -1,1 +1,1 @@
-https://FUNnyManiac.github.io/rsschool-cv/
+https://FUNnyManiac.github.io/rsschool-cv/cv
