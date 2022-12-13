@@ -19,6 +19,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
 }
 h3{
+    padding: 15px 0px 10px 0px;
     font-family: 'Roboto Slab', serif;
     font-size: 28px;
 }
@@ -191,16 +192,23 @@ p{
     display: flex;
     flex-direction: column;
     list-style-type: none;
+    padding-left: 45px;
 }
 
 .skillList>li{
     display: flex;
+    align-items:center
+}
 
+.skillList>li::before{
+    content: url(./assets/plus_cztzmh8hdr94.svg);
+    width: 30px;
 }
 .sectionContent>h3{
     display:flex;
 }
 .sectionContent>h3::before{
+    margin-right: 10px;
     width: 40px;
 }
 #general::before{
