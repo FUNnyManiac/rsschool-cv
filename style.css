@@ -17,6 +17,7 @@ h1 {
 h2{
     font-size: 42px;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 35px;
 }
 h3{
     padding: 15px 0px 10px 0px;
@@ -35,6 +36,10 @@ nav {
     justify-content: flex-end;
     position: sticky;
     top: 0px;
+}
+
+section{
+    margin-bottom: 35px;
 }
 
 nav>ul {
@@ -78,7 +83,7 @@ header {
 
 .photo>img {
     width: 450px;
-    margin: 0 a;
+    margin: 0 auto;
     border-radius: 50%;
 }
 
@@ -187,20 +192,27 @@ p{
     letter-spacing: 0.07em;
     line-height: 1.5em;
 }
-
-.skillList{
+.aboutMe{
+    margin-bottom: 35px;
+}
+.qualitiesList{
     display: flex;
     flex-direction: column;
     list-style-type: none;
     padding-left: 45px;
 }
 
-.skillList>li{
+.qualitiesList>li{
     display: flex;
-    align-items:center
+    align-items:center;
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 0.07em;
+    line-height: 1.5em;;
 }
 
-.skillList>li::before{
+.qualitiesList>li::before{
     content: url(./assets/plus_cztzmh8hdr94.svg);
     width: 30px;
 }
@@ -220,3 +232,31 @@ p{
 #qualities::before{
     content: url(./assets/personal_os73nq9lig72.svg);
 }
+.skillsList{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture{
+    display: flex;
+    width: 210px;
+    height: 210px;
+}
+
+.html{
+    /* background: url(./assets/html_6lfef3bzp5kh.svg); */
+}
+
+/* .css{
+    background:  url(./assets/css_3_jkugyg672w3r.svg)
+}
+.js{
+    background:url(./assets/java_script_cfrswr9rxhxz.svg)
+}
+.go{
+    background:url(./assets/icons8-golang.svg); 
+}
+.qa{
+    background: url(./assets/quality_assurance_cz0sq6lcno01.svg)
+} */
