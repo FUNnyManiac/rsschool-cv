@@ -1,16 +1,18 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-h1{
+
+h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 62px;
 }
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -20,9 +22,22 @@ h1{
 
 nav {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: flex-end;
+}
+
+nav>ul {
+    display: flex;
+    flex-wrap: nowrap;
     align-items: center;
+}
+
+nav>ul>li {
+    list-style-type: none;
+}
+
+nav>ul>li>a {
+    display: flex;
+    padding: 10px 15px;
 }
 
 header {
@@ -52,11 +67,7 @@ header {
     border-radius: 50%;
 }
 
-nav>a {
-    display: flex;
-    padding: 10px 15px;
-
-}
+nav>a {}
 
 .profileInfo {
     display: flex;
@@ -74,41 +85,43 @@ nav>a {
 .link {
     display: flex;
     justify-content: flex-start;
-    align-items:center;
+    align-items: center;
     padding: 6px 10px;
 }
 
 .link>span {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     font-size: 24px;
     padding: 5px;
 }
-span::before{
+
+span::before {
     width: 32px;
     margin-right: 7px;
 }
-.tg>span::before{
-    content:url(./assets/telegram_bavlya2x0i35.svg);    
+
+.tg>span::before {
+    content: url(./assets/telegram_bavlya2x0i35.svg);
 }
 
-.vk>span::before{
-    content:url(./assets/vk_jwps1kngigw6.svg);    
+.vk>span::before {
+    content: url(./assets/vk_jwps1kngigw6.svg);
 }
 
-.gmail>span::before{
-    content:url(./assets/gmail_yfujqkbcq71j.svg);    
+.gmail>span::before {
+    content: url(./assets/gmail_yfujqkbcq71j.svg);
 }
 
-.link>a{
+.link>a {
     display: flex;
     font-size: 18px;
     justify-content: center;
     align-items: center;
 }
 
-.generalInfo{
+.generalInfo {
     font-family: 'Roboto Slab', serif;
     text-align: justify;
     font-size: 18px;
