@@ -7,12 +7,21 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    /* background-color:black */
+}
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 62px;
+    font-size: 72px;
 }
-
+h2{
+    font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+}
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -23,6 +32,8 @@ h1 {
 nav {
     display: flex;
     justify-content: flex-end;
+    position: sticky;
+    top: 0px;
 }
 
 nav>ul {
@@ -42,10 +53,12 @@ nav>ul>li>a {
 
 header {
     display: flex;
+    flex-direction: column-reverse;
     width: 100%;
     justify-content: space-between;
     padding-top: 30px;
     margin-bottom: 35px;
+    height: 860px;
 }
 
 .myName {
@@ -59,12 +72,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 640px;
 
 }
 
 .photo>img {
-    width: 350px;
+    width: 450px;
+    margin: 0 a;
     border-radius: 50%;
 }
 
@@ -74,7 +87,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 800px;
+    /* width: 800px; */
 }
 
 .contacts {
@@ -153,4 +166,49 @@ code{
     background-color: gray;
     font-size: 16px;
     font-weight: 500;
+}
+
+.aboutMe{
+    /* height: 90vh; */
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 1px solid black;
+}
+
+p{
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 0.07em;
+    line-height: 1.5em;
+}
+
+.skillList{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.skillList>li{
+    display: flex;
+
+}
+.sectionContent>h3{
+    display:flex;
+}
+.sectionContent>h3::before{
+    width: 40px;
+}
+#general::before{
+    content: url(./assets/user_gtls3b18ep7l.svg);
+}
+#goal::before{
+    content:url(./assets/purpose_g7cjprvo1eex.svg);
+}
+#qualities::before{
+    content: url(./assets/personal_os73nq9lig72.svg);
 }
