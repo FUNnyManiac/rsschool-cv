@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 
@@ -94,31 +95,20 @@
                     and returns a string representing the state the light should change to.
                     For example, when the input is green, output should be yellow.</p>
                 <h3>My solution:</h3>
-                <code>
-                    <div class="codeLine"><span class="purple">function</span> <span class="orange">
-                            updateLight</span>(<span class="orange">current</span>) {</div>
-                    <div class="codeLine firstLevelNesting"><span class="purple">let</span> <span
-                            class="orange">arr</span> = [<span class="arrayItems">'green', 'yellow', 'red'</span>];
-                    </div>
-                    <div class="codeLine firstLevelNesting"><span class="purple">for</span>(<span
-                            class="purple">let</span> <span class="orange">i</span> = <span class="orange">0</span>;
-                        <span class="blue">i</span> <span>arr.length </span>; <span class="actionLoop">i</span>++){
-                    </div>
-                    <div class="codeLine secondLevelNesting"> <span class="purple">if</span>(<span
-                            class="blue">arr</span>[<span class="blue">i</span> ] === <span
-                            class="blue">current</span>){</div>
-                    <div class="codeLine thirdLevelNesting"> <span class="purple">return</span> <span
-                            class="blue">arr</span>[<span class="blue">i</span>+<span class="orange">1</span>]</div>
-                    <div class="codeLine secondLevelNesting">} <span class="purple">else if</span>(<span
-                            class="blue">current</span> == <span class="blue">arr</span>[<span
-                            class="blue">arr</span>.<span class="blue">length</span>-<span class="orange">1</span>]){
-                    </div>
-                    <div class="codeLine thirdLevelNesting"> <span class="purple">return</span> <span
-                            class="blue">arr</span>[<span class="orange">0</span>]</div>
-                    <div class="codeLine secondLevelNesting">}</div>
-                    <div class="codeLine firstLevelNesting">}</div>
-                    <div class="codeLine ">}</div>
-                </code>
+                <pre>
+                    <code>
+        <span class="purple">function</span> <span class="orange"> updateLight</span>(<span class="orange">current</span>) {
+            <span class="purple">let</span> <span class="orange"> arr</span> = [<span class="arrayItems">'green', 'yellow', 'red'</span>];
+            <span class="purple">for</span>(<span class="purple">let</span> <span class="orange">i</span> = <span class="orange">0</span>; <span class="blue">i</span>&lt;<span class="blue">arr.length </span>; <span class="blue">i</span>++){
+                <span class="purple">if</span>(<span class="blue">arr</span>[<span class="blue">i</span> ] === <span class="blue">current</span>){
+                    <span class="purple">return</span> <span class="blue">arr</span>[<span class="blue">i</span>+<span class="orange">1</span>]
+                } <span class="purple">else if</span>(<span class="blue">current</span> == <span class="blue">arr</span>[<span class="blue">arr</span>.<span class="blue">length</span>-<span class="orange">1</span>]){
+                    <span class="purple">return</span> <span class="blue">arr</span>[<span class="orange">0</span>]
+                }           
+            }
+        }
+                    </code>
+                </pre>
             </section>
             <section id="edu" class="education">
                 <h2>Education</h2>

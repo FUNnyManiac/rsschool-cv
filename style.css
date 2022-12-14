@@ -282,12 +282,13 @@ p {
 
 /* tag CODE styles */
 code {
-    display: flex;
+    display: block;
+    width: 100%;
+    /* display: flex; */
     background-color: #262729;
     font-size: 16px;
     font-weight: 500;
-    display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     color:white;
     padding: 15px 30px;
 }
