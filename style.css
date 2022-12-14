@@ -23,6 +23,10 @@ h2 {
     font-size: 42px;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
 }
 
 h3 {
@@ -45,13 +49,17 @@ section {
 nav {
     display: flex;
     justify-content: flex-end;
+    background-color:white;
+    position: sticky;
+    top: 0;
+    padding: 15px 0 10px 0;
 }
 
 nav>ul {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 
 nav>ul>li {
@@ -192,22 +200,10 @@ span::before {
     width: 40px;
 }
 
-code {
-    display: flex;
-    background-color: gray;
-    font-size: 16px;
-    font-weight: 500;
-}
+
 
 .aboutMe {
     /* height: 90vh; */
-}
-
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
 }
 
 p {
@@ -294,3 +290,40 @@ p {
 .qa{
     background: url(./assets/quality_assurance_cz0sq6lcno01.svg)
 } */
+
+
+
+/* tag CODE styles */
+code {
+    display: flex;
+    background-color: #262729;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    padding: 15px 30px;
+}
+
+.purple{
+    color: #b294bb
+}
+
+.orange{
+    color: #de935f;
+}
+.blue{
+    color: #89b6c5;
+}
+.arrayItems{
+    color: #b5bd68
+}
+.firstLevelNesting{
+    text-indent: 2.5%;
+}
+.secondLevelNesting{
+    text-indent: 4.5%;
+}
+.thirdLevelNesting{
+    text-indent: 6%;
+}

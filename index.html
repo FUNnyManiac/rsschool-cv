@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta orange="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Andrei Bosiachenko (FUNnyManiac)</title>
 </head>
@@ -30,7 +30,7 @@
                     </li>
                     <li class="link vk">
                         <span>VK:</span>
-                        <a href="https://vk.com/my_love_name_extreme">vk.com/my_love_name_extreme</a>
+                        <a href="https://vk.com/my_love_orange_extreme">vk.com/my_love_orange_extreme</a>
                     </li>
                     <li class="link gmail">
                         <span>Gmail:</span>
@@ -43,16 +43,16 @@
 
                 </div>
             </div>
-            <div class="photo">
+            <div  class="photo">
                 <img src="./assets/QQ9hn5EYQ8s.png" alt="myPhoto">
             </div>
-        </header>
+        </header >
         <main>
             <section id="about" class="aboutMe">
-                <h2 class="title">About me</h2>
+                <h2>About me</h2>
                 <div class="sectionContent">
                     <h3 id="general">General</h3>
-                    <p> Welcome to my CV. As you have already understood, my name is Andrey. I am 25
+                    <p> Welcome to my CV. As you have already understood, my orange is Andrey. I am 25
                         years old. I graduated from
                         Polotsk State University, majoring in Computing Machines, Systems and Networks. I did an
                         internship
@@ -76,7 +76,7 @@
                 </div>
             </section>
             <section id="skills" class="skills">
-                <h2 class="title">Skills</h2>
+                <h2>Skills</h2>
                 <ul class="skillsList">
                     <li class="picture html"><img src="./assets/html_6lfef3bzp5kh.svg" alt="" srcset=""></li>
                     <li class="picture css"><img src="./assets/css_3_jkugyg672w3r.svg" alt="" srcset=""></li>
@@ -85,21 +85,43 @@
                     <li class="picture qa"><img src="./assets/quality_assurance_cz0sq6lcno01.svg" alt="" srcset=""></li>
                 </ul>
             </section>
-            <section id="code"class="code">
-                <h2 class="title">Code example</h2>
-                <a href="https://www.codewars.com/kata/58649884a1659ed6cb000072">Link to task on CodeWars</a>
+            <section id="code" class="code">
+                <h2>Code example</h2>
+                <h3>Task:</h3>
+                <a href="http://"></a>
+                <p>You're writing code to control your town's traffic lights. You need a function to handle each change
+                    from green, to yellow, to red, and then to green again.
+                    Complete the function that takes a string as an argument representing the current state of the light
+                    and returns a string representing the state the light should change to.
+                    For example, when the input is green, output should be yellow.</p>
                 <h3>My solution:</h3>
-                <pre>
-            <code>
-        function checkParent (src, dest) {
-            while (src != null) {
-              if (src.tagName == dest) return src
-                src = src.parentElement
-              }
-            return null
-        }
-            </code>
-          </pre>
+                <code>
+                <div class="codeLine"><span class="purple">function</span> <span class="orange"> updateLight</span>(<span class="orange">current</span>) {</div>
+                <div class="codeLine firstLevelNesting"><span class="purple">let</span> <span class="orange">arr</span> = [<span class="arrayItems">'green', 'yellow', 'red'</span>];</div>
+                <div class="codeLine firstLevelNesting"><span class="purple">for</span>(<span class="purple">let</span> <span class="orange">i</span> = <span class="orange">0</span>; <span class="blue">i<arr.length</span>; <span class="actionLoop">i</span>++){</div>
+                <div class="codeLine secondLevelNesting"> <span class="purple">if</span>(<span class="blue">arr</span>[<span class="blue">i</span> ] === <span class="blue">current</span>){</div>
+                <div class="codeLine thirdLevelNesting"> <span class="purple">return</span> <span class="blue">arr</span>[<span class="blue">i</span>+<span class="orange">1</span>]</div>
+                <div class="codeLine secondLevelNesting">} <span class="purple">else if</span>(<span class="blue">current</span> == <span class="blue">arr</span>[<span class="blue">arr</spanm>.<spanm class="blue">length</spanm>-<span class="orange">1</span>]){</div>
+                <div class="codeLine thirdLevelNesting"> <span class="purple">return</span> <span class="blue">arr</span>[<span class="orange">0</span>]</div>
+                <div class="codeLine secondLevelNesting">}</div>
+                <div class="codeLine firstLevelNesting">}</div>
+                <div class="codeLine ">}</div>
+                </code>
+            </section>
+            <section class="Education">
+                <h2>Education</h2>
+                <ul>
+                    <li>Polotsk State University</li>
+                    <li><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">JavaScript
+                            Algorithms and Data Structures (freeCodeCamp)</a></li>
+                    <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/">Legacy Responsive Web Design</a>
+                    </li>
+                    <li><a href="https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata?lesson=14">Полный
+                            курс по JavaScript + React - с нуля до результата (Recently started studying)</a></li>
+                </ul>
+            </section>
+            <section class="eng">
+                <h2>English level</h2>
             </section>
         </main>
         <!-- <footer>
@@ -112,17 +134,8 @@
 
 
 
-        <h2>Education</h2>
-        <ul>
-            <li>Polotsk State University</li>
-            <li><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">JavaScript
-                    Algorithms and Data Structures (freeCodeCamp)</a></li>
-            <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/">Legacy Responsive Web Design</a>
-            </li>
-            <li><a href="https://coursehunter.net/course/polnyy-kurs-po-javascript-s-nulya-do-rezultata?lesson=14">Полный
-                    курс по JavaScript + React - с нуля до результата (Recently started studying)</a></li>
-        </ul>
-        <h2>English level is A1</h2>
+        
+        
     </div>
 </body>
 
