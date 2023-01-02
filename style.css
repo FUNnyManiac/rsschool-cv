@@ -345,12 +345,12 @@ footer>ul>li>a>img{
 
 
 #projects{
-    height: 100vh;
+    /* height: 100vh; */
 }
 .projects{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
 }
 
