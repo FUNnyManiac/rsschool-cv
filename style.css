@@ -349,15 +349,14 @@ footer > ul > li > a > img {
   flex-wrap: wrap;
   align-items: center;
 }
-.project_item:nth-child(3) {
-  width: 90%;
-}
+
 
 .project_item {
   display: flex;
   flex-direction: column;
   width: 400px;
   height: 550px;
+  margin-bottom: 20px;
   /* overflow-y: auto; */
 }
 .project_item__img{
@@ -385,6 +384,10 @@ footer > ul > li > a > img {
 }
 .thePig {
   background-image: url(./assets/thePigProject.png);
+}
+
+.webdev{
+  background-image: url(./assets/screencapture-funnymaniac-github-io-webdev-2023-05-22-11_07_44.png);
 }
 .project_item > a:hover {
   display: flex;
